@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/btnUserManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:id="@+id/btnUserManagement"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:onClick="onbtnUserManagementClick"/>
+
+    <Button
+        android:text="@string/btnFoodManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/btnFoodManagement"
+        android:layout_below="@+id/btnUserManagement"
+        android:layout_alignLeft="@+id/btnUserManagement"
+        android:layout_alignStart="@+id/btnUserManagement"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:onClick="onbtnFoodManagementClick"/>
+
+    <Button
+        android:text="@string/btnScheduleManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/btnScheduleManagement"
+        android:layout_below="@+id/btnFoodManagement"
+        android:layout_alignLeft="@+id/btnFoodManagement"
+        android:layout_alignStart="@+id/btnFoodManagement"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:onClick="onbtnScheduleManagementClick"/>
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Title of App -->
+
+    <string name="app_name">MMS</string>
+
+    <!-- 1.1 activity_login.xml -->
+
+    <string name="titleText">You Are?</string>
+    <string name="btnAdmin">Admin</string>
+    <string name="btnRector">Rector</string>
+    <string name="btnStudent">Student</string>
+
+    <!-- 1.2 activity_admin_login.xml -->
+
+    <string name="titleAdminText">Admin</string>
+    <string name="userAdmin">Enter Your Username</string>
+    <string name="passwordAdmin">Enter Your Password</string>
+    <string name="btnAdminLogin">Login</string>
+
+    <!-- 1.3 activity_rector_login.xml -->
+
+    <string name="titleRectorText">Rector</string>
+    <string name="userRector">Enter Your Username</string>
+    <string name="passwordRector">Enter Your Password</string>
+    <string name="btnRectorLogin">Login</string>
+
+    <!-- 1.3 activity_student_login.xml -->
+
+    <string name="titleStudentText">Student</string>
+    <string name="userStudent">Enter Your Username</string>
+    <string name="passwordStudent">Enter Your Password</string>
+    <string name="btnStudentLogin">Login</string>
+
+    <!-- 2.1 activity_admin_home.xml -->
+
+    <string name="btnUserManagement">Manage Users</string>
+    <string name="btnFoodManagement">Manage Food</string>
+    <string name="btnScheduleManagement">Manage Schedule</string>
+
+    <!-- 2.1.1 activity_user_management.xml  -->
+
+    <string name="titleUserManagement">User Management</string>
+    <string name="userId">Enter User ID to Search</string>
+    <string name="userName">Enter User Name</string>
+    <string name="userPassword">Enter Password</string>
+    <string name="userType">Select User Type: </string>
+    <string name="btnAddNewUser">Add</string>
+    <string name="btnEditUser">Edit</string>
+    <string name="btnViewAllUser">View All</string>
+    <string name="btnDelUser">Delete</string>
+
+    <string-array name="userTypeList">
+        <item name="nullValue"> </item>
+        <item name="rector">Rector</item>
+        <item name="student">Student</item>
+    </string-array>
+
+    <!-- 2.1.2 activity_food_management.xml  -->
+
+    <string name="titleFoodManagement">Food Management</string>
+    <string name="foodId">Enter Food ID to Search</string>
+    <string name="foodName">Enter Food Name</string>
+    <string name="foodUtensils">Enter No. of Utensils</string>
+    <string name="btnAddNewFood">Add</string>
+    <string name="btnEditFood">Edit</string>
+    <string name="btnViewAllFood">View All</string>
+    <string name="btnDelFood">Delete</string>
+
+    <string-array name="foodTypeList">
+        <item name="nullValue1"> </item>
+        <item name="breakfast">Breakfast</item>
+        <item name="lunch">Lunch</item>
+        <item name="dinner">Dinner</item>
+    </string-array>
+
+    <!-- 2.1.3 activity_schedule_management.xml  -->
+
+    <string name="titleScheduleManagement">Schedule Management</string>
+    <string name="btnAddSchedule">Add</string>
+    <string name="btnEditSchedule">Edit</string>
+    <string name="btnViewAllSchedule">View All</string>
+    <string name="btnDelSchedule">Delete</string>
+
+    <string-array name="scheduleTypeList">
+        <item name="nullValue2"> </item>
+        <item name="monday">Monday</item>
+        <item name="tuesday">Tuesday</item>
+        <item name="wednesday">Wednesday</item>
+        <item name="thursday">Thursday</item>
+        <item name="friday">Friday</item>
+        <item name="saturday">Saturday</item>
+        <item name="sunday">Sunday</item>
+    </string-array>
+
+
+    <!-- 3.1 activity_rector_home.xml-->
+    <string name="btnViewScheduleRector">View Schedule</string>
+    <string name="btnViewTotalUtensils">View Total Utensils</string>
+    <string name="btnViewTotalStudents">View Total Students</string>
+
+</resources>

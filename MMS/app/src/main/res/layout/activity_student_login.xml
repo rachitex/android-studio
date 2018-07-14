@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/titleStudentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/titleStudentText"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:layout_below="@+id/titleStudentText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/userStudent"
+        android:hint="@string/userStudent"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/userStudent"
+        android:layout_alignStart="@+id/userStudent"
+        android:id="@+id/passwordStudent"
+        android:hint="@string/passwordStudent"/>
+
+    <Button
+        android:text="@string/btnStudentLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordStudent"
+        android:layout_alignRight="@+id/passwordStudent"
+        android:layout_alignEnd="@+id/passwordStudent"
+        android:layout_marginTop="42dp"
+        android:id="@+id/btnStudentLogin" />
+</RelativeLayout>

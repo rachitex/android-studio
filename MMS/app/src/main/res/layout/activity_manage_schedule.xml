@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_manage_schedule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mms.ManageScheduleActivity">
+
+    <TextView
+        android:id="@+id/titleScheduleManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/titleScheduleManagement"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/scheduleTypeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:entries="@array/scheduleTypeList"
+        android:layout_below="@+id/titleScheduleManagement"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/scheduleFoodList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scheduleTypeList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+
+    <Spinner
+        android:id="@+id/scheduleFoodTypeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scheduleFoodList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:id="@+id/btnAddSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scheduleFoodTypeList"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/btnAddSchedule" />
+
+    <Button
+        android:id="@+id/btnEditSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnAddSchedule"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/btnEditSchedule" />
+
+    <Button
+        android:id="@+id/btnDelSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAddSchedule"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnAddSchedule"
+        android:layout_marginBottom="26dp"
+        android:text="@string/btnDelSchedule" />
+
+    <Button
+        android:id="@+id/btnViewAllSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnDelSchedule"
+        android:layout_alignLeft="@+id/btnEditSchedule"
+        android:layout_alignStart="@+id/btnEditSchedule"
+        android:text="@string/btnViewAllSchedule" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scheduleFoodList"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:text="Select Day: "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:text="Select Food Name: "
+        android:textSize="20sp"
+        android:layout_above="@+id/scheduleFoodTypeList"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Select Food Type: "
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/scheduleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titleScheduleManagement"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Schedule ID" />
+
+</RelativeLayout>

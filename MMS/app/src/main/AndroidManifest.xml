@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginAdminActivity" />
+        <activity android:name=".LoginRectorActivity" />
+        <activity android:name=".LoginStudentActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".ManageUsersActivity" />
+        <activity android:name=".ManageFoodActivity" />
+        <activity android:name=".ManageScheduleActivity" />
+        <activity android:name=".RectorHomeActivity" />
+        <activity android:name=".StudentHomeActivity" />
+        <activity android:name=".ScheduleActivity"></activity>
+    </application>
+
+</manifest>

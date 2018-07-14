@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IndieRecords</string>
+    <string name="label_loading">Loading...</string>
+</resources>

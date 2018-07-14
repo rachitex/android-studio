@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dbconnectivity.MainActivity">
+
+    <TextView
+        android:text="@string/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/titleText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_below="@+id/titleText"
+        android:layout_marginTop="28dp"
+        android:id="@+id/sRoll"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/sRoll" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/sRoll"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/sName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/sName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/sName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/sMarks"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/sMarks" />
+
+    <Button
+        android:text="@string/btnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnModify"
+        android:layout_toRightOf="@+id/btnModify"
+        android:layout_toEndOf="@+id/btnModify"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:id="@+id/btnDel" />
+
+    <Button
+        android:text="@string/btnModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnModify"
+        android:layout_alignBaseline="@+id/btnAdd"
+        android:layout_alignBottom="@+id/btnAdd"
+        android:layout_alignLeft="@+id/titleText"
+        android:layout_alignStart="@+id/titleText" />
+
+    <Button
+        android:text="@string/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:id="@+id/btnAdd"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@+id/sMarks"
+        android:layout_toLeftOf="@+id/btnModify"
+        android:layout_toStartOf="@+id/btnModify" />
+
+    <Button
+        android:text="@string/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_marginTop="36dp"
+        android:id="@+id/btnView" />
+
+    <Button
+        android:text="@string/btnViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnView"
+        android:layout_alignLeft="@+id/btnModify"
+        android:layout_alignStart="@+id/btnModify"
+        android:id="@+id/btnViewAll" />
+
+    <Button
+        android:text="@string/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnViewAll"
+        android:layout_alignLeft="@+id/btnDel"
+        android:layout_alignStart="@+id/btnDel"
+        android:id="@+id/btnShow" />
+
+</RelativeLayout>

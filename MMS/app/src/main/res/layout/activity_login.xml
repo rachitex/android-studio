@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="36dp"
+        android:textSize="40sp"
+        android:id="@+id/titleText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/btnRector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRector"
+        android:layout_below="@+id/btnAdmin"
+        android:layout_alignLeft="@+id/btnAdmin"
+        android:layout_alignStart="@+id/btnAdmin"
+        android:layout_marginTop="29dp"
+        android:textSize="35sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onbtnRectorClick"/>
+
+    <Button
+        android:text="@string/btnStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/btnStudent"
+        android:layout_below="@+id/btnRector"
+        android:layout_alignLeft="@+id/btnRector"
+        android:layout_alignStart="@+id/btnRector"
+        android:textSize="35sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onbtnStudentClick"/>
+
+    <Button
+        android:text="@string/btnAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/btnAdmin"
+        android:layout_below="@+id/titleText"
+        android:textSize="35sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onbtnAdminClick"/>
+
+</RelativeLayout>

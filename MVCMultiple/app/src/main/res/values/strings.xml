@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVCMultiple</string>
+    <string name="titleText">Student Details</string>
+    <string name="sRoll">Enter Roll No</string>
+    <string name="sName">Enter Name</string>
+    <string name="sMarks">Enter Marks</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnDel">Delete</string>
+    <string name="btnModify">Modify</string>
+    <string name="btnView">View</string>
+</resources>

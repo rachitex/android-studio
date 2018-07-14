@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/titleAdminText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/titleAdminText"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:layout_below="@+id/titleAdminText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/userAdmin"
+        android:hint="@string/userAdmin"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/userAdmin"
+        android:layout_alignStart="@+id/userAdmin"
+        android:id="@+id/passwordAdmin"
+        android:hint="@string/passwordAdmin"/>
+
+    <Button
+        android:text="@string/btnAdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordAdmin"
+        android:layout_alignRight="@+id/passwordAdmin"
+        android:layout_alignEnd="@+id/passwordAdmin"
+        android:layout_marginTop="42dp"
+        android:id="@+id/btnAdminLogin" />
+</RelativeLayout>

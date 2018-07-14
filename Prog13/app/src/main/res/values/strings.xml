@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prog13</string>
+    <string name="hello_world">Login Validation</string>
+    <string name="email">Enter Your Email ID</string>
+    <string name="password">Enter Your Password</string>
+    <string name="login_btn">Login</string>
+    <string name="welcome">Welcome!!!</string>
+</resources>

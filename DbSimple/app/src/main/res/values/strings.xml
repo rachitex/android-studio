@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DbSimple</string>
+    <string name="sRoll">Enter Roll no</string>
+    <string name="sName">Enter Name</string>
+    <string name="sMarks">Enter Marks</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnModify">Modify</string>
+    <string name="btnDel">Delete</string>
+    <string name="btnView">View</string>
+    <string name="btnViewAll">View All</string>
+</resources>
